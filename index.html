@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="font-body">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,40 +11,41 @@
 </head>
 <body>
     <div id="main" class="containerGrid">
-        <header>
-            <h1>Xavier Venteo Website</h1>      
+        <header id="header" class="header">
+            <div><h1>Xavier Venteo Test Website</h1></div>
         </header>   
 
-        <nav>
-            <a href="profile.html">Perfil</a>
-            <a href="contact.html">Contacto</a>
+        <nav id="nav" class="nav">
+            <div>
+                <a href="profile.html">Perfil</a>
+                <a href="contact.html">Contacto</a>
+            </div>   
         </nav>
 
         <div id="content" class="content">
-            <section>      
-                <article>
-                    <div class="personal">
-                        <img src="img/NY.jpg" alt="Xavier Venteo">
-                    </div>    
-                    <p>Presentación Xavi</p>
-                </article>      
-            </section>    
+            <div class="content-child">
+                <img src="img/NY.jpg" alt="Xavier Venteo" class="personalImage">
+            </div>    
+            <div class="content-child">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eros justo, tincidunt quis diam sed, porttitor ullamcorper lectus. Nam aliquam tristique sem vitae interdum. Donec vulputate fringilla consectetur. Nam orci justo, volutpat eget quam quis, vehicula pellentesque nisl. Maecenas eleifend pharetra lacus sed interdum. Quisque tempus vestibulum fringilla. Vivamus at maximus turpis. Nulla sed laoreet ex, ac pellentesque est. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+            </div>    
         </div>
 
-        <aside>
+        <aside id="aside">
             <h3>Mi twitter</h3>
-            <!--
-            <a class="twitter-timeline" href="https://twitter.com/XavierVenteo?ref_src=twsrc%5Etfw">Tweets by XavierVenteo</a> 
+                <a class="twitter-timeline" data-height="400" data-theme="light" href="https://twitter.com/XavierVenteo?ref_src=twsrc%5Etfw">Tweets by XavierVenteo</a> 
             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            -->    
+
             <h3>Testimonios</h3>
-            <p>Me gusta mucho esta página.</p>
+            <p>He aprendido mucho con esta página.</p>
         </aside>
     
-        <footer>
+        <footer id="footer" class="footer">
             <div>&copy;Xavier Venteo</div>
-            <div><a href="https://es.linkedin.com/in/xavier-venteo-346043a">Linkedin</a></div>
-            <div><a href="https://es.slideshare.net/XavierVenteoBarahona">Slideshare</a></div>
+            <div>
+                <a href="https://es.linkedin.com/in/xavier-venteo-346043a" target="_blank">Linkedin</a>
+                <a href="https://es.slideshare.net/XavierVenteoBarahona" target="_blank">Slideshare</a> 
+            </div>
         </footer>
     </div>
 </body>
