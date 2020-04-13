@@ -1,0 +1,37 @@
+/* Begin defining main division for index page */
+.containerGrid {
+    /* background: #eee;*/
+    background: white;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 100px 25px minmax(400px, auto) 25px;
+    grid-template-areas:
+        "header  header  header  header  header"
+        "nav     nav     nav     nav     nav"
+        "content content content content aside"
+        "footer  footer  footer  footer  footer";
+}
+ .containerGrid header {
+    grid-area: header;
+}
+ .containerGrid nav {
+    grid-area: nav;
+}
+ .containerGrid #content {
+    grid-area: content;
+}
+ .containerGrid aside {
+    grid-area: aside;
+}
+ .containerGrid footer {
+    grid-area: footer;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.content-child:nth-child(1){
+    align-self: center;
+}
