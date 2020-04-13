@@ -1,0 +1,40 @@
+.containerGrid{
+    background: rgb(248, 248, 212);
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 1fr 1fr 4fr 1fr;
+    grid-template-areas:
+        "header  header  header  header  header"
+        "nav     nav     nav     nav     nav"
+        "content content content content aside"
+        "footer  footer  footer  footer  footer";
+}
+
+.containerGrid header {
+    grid-area: header;
+}
+.containerGrid nav {
+    grid-area: nav;
+}
+.containerGrid #content {
+    grid-area: content;
+}
+.containerGrid aside {
+    grid-area: aside;
+}
+
+.containerGrid footer {
+    grid-area: footer;
+}
+
+nav {
+    background: greenyellow;
+}
+header {
+    background: yellow;
+}
+
+footer {
+    background: red;
+}
+
