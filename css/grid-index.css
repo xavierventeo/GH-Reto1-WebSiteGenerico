@@ -26,12 +26,3 @@
  .containerGrid footer {
     grid-area: footer;
 }
-
-.content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-.content-child:nth-child(1){
-    align-self: center;
-}
