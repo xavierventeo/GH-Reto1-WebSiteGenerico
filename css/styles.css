@@ -5,7 +5,7 @@
     justify-content: center;
 }
 
-.nav{
+.nav {
     background: rgb(167, 167, 167);
     display: flex;
     justify-content: flex-end;
@@ -29,6 +29,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.personalImage {
+.personal-image {
     border-radius: 50%;
+}
+
+.article-footer {
+    font-size: small;
 }
