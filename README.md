@@ -22,7 +22,7 @@ Trabajado en ramas en Git
 Cada rama se ha ido eliminando tras hacer merge con master
 Mantenido la última rama creada en local: featurePostContact que ha sido mergeada a master en Git Local
 Creado el repositorio en GitGhub y realizado push desde local al repositorio remoto en GitHub
-Creada rama readme para crear los readme y license, y hacer pull request a master
+Creada ramas los readme y license, y hacer pull request a master
 ```
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
