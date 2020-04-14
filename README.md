@@ -10,12 +10,10 @@ Creación de un website personal poniendo en práctica HTML5, CSS3, CSS Layout (
 
 ## Descripción del Trabajo
 ```bash
-<ul>
-  <li><strong>index.html</strong>Página principal del proyecto</li>
-  <li><strong>profile.html</strong>Página con información del perfil</li>
-  <li><strong>contact.html</strong>Página de contacto</li>
-  <li><strong>profile.html</strong>Página para visualizar el mensaje tras hacer un POST en contacto</li>
-</ul>
+• index.html:   Página principal del proyecto
+• profile.html: Página con información del perfil
+• contact.html: Página de contacto
+• profile.html: Página para visualizar el mensaje tras hacer un POST en contacto
 ```
 
 ## Consideraciones sobre Git
