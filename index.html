@@ -6,33 +6,28 @@
     <meta name="description" content="Reto 1 GeeksHubs Academy: Website">
     <meta name="keywords" content="HTML5, CSS3, Layout, Flex, Grid, Git">
 
-    <link type="text/css" rel="stylesheet" href="css/grid-index.css">
+    <link type="text/css" rel="stylesheet" href="css/grid-general.css">
     <link type="text/css" rel="stylesheet" href="css/styles.css">
     <title>Generic Website</title> 
 </head>
 <body>
     <div id="main" class="containerGrid">
         <header id="header" class="header">
-            <div><h1>Xavier Venteo Test Website</h1></div>
+            <div><h1>Xavier Venteo <span>Test Website</span></h1></div>
         </header>   
 
         <nav id="nav" class="nav">
-            <div>
-                <a href="profile.html">Perfil</a>
-                <a href="contact.html">Contacto</a>
-            </div>   
+            <ul>
+                <li><a href="profile.html">Perfil</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>   
         </nav>
 
         <div id="content" class="content">
-            <div class="content-child">
-                <img src="img/NY.jpg" alt="Xavier Venteo" class="personal-image">
-            </div>    
-            <div class="content-child">
-                <p>Ingeniero informático, runner, buceador... y ahora parte de la comnudidad GeeksHubs</p>
-            </div>    
+
             <div class="content-child">
                 <section>
-                    <header><h3>Noticias recientes</h3></header>
+                    <header><h3>Formaciones recientes</h3></header>
                     
                     <article>
                         <header>
@@ -60,23 +55,24 @@
                 </section>
             </div>            
         </div>
-
+<!--
         <aside id="aside">
             <h3>Mi twitter</h3>
-            <a class="twitter-timeline" data-height="400" data-theme="light" href="https://twitter.com/XavierVenteo?ref_src=twsrc%5Etfw">Tweets by XavierVenteo</a> 
 
             <h3>Testimonios</h3>
             <p>He aprendido mucho con esta página.</p>
         </aside>
-    
+ -->   
         <footer id="footer" class="footer">
-            <div>&copy;Xavier Venteo</div>
+            <div>&copy;GeeksHubs BootCamp</div>
             <div>
                 <a href="https://es.linkedin.com/in/xavier-venteo-346043a" target="_blank">Linkedin</a>
                 <a href="https://es.slideshare.net/XavierVenteoBarahona" target="_blank">Slideshare</a> 
             </div>
         </footer>
+
+
+
     </div>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </body>
 </html>

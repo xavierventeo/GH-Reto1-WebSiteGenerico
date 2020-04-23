@@ -4,7 +4,7 @@
     background: white;
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 100px 25px minmax(400px, auto) 25px;
+    grid-template-rows: 100px 40px minmax(400px, auto) 80px;
     grid-template-areas:
         "header  header  header  header  header"
         "nav     nav     nav     nav     nav"
