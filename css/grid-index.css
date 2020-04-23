@@ -4,13 +4,30 @@
     background: white;
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 100px 40px minmax(430px, auto) 80px;
+    grid-template-rows: 100px 40px minmax(430px, auto) auto 80px;
     grid-template-areas:
         "header  header  header  header  header"
         "nav     nav     nav     nav     nav"
-        "content content content content aside"
+        "content content content content content"
+        "aside   aside   aside   aside   aside"
         "footer  footer  footer  footer  footer";
 }
+/* Grid for mobile. Aside section below content section*/
+@media only screen and (min-width: 400px) {
+    .containerGrid {
+        /* background: #eee;*/
+        background: white;
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-rows: 100px 40px minmax(430px, auto) 80px;
+        grid-template-areas:
+            "header  header  header  header  header"
+            "nav     nav     nav     nav     nav"
+            "content content content content aside"
+            "footer  footer  footer  footer  footer";
+    }
+}
+
 .containerGrid header {
      grid-area: header;
 }
