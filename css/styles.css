@@ -47,6 +47,13 @@ body {
     align-items: center;
     background-color: #F5F5EE;
 }
+.aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F5F5EE;
+}
 
 .footer {
     display: flex;
@@ -100,3 +107,9 @@ form button {
     height: 33px;
     background: #3B3B3B; 
     color: #FFF;}
+
+.sidebar_item { 
+    background: white;
+    padding: 0 15px;
+    border-radius: 10%;
+}
